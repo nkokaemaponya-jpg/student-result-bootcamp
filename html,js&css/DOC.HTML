@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result </title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body> 
+ <nav>
+    <img src="image/1000461064.jpg" alt="school Logo" style="height: 100px; margin-left: 20px;">
+     <span style="float:right">
+               
+            <a href="home.html">Home</a>
+            <a href="Moodle.html">Moodle</a> 
+            
+    </span>
+ </nav>
+   <span> 
+    <h1 style="text-align: center; color: #333;">Welcome to CheckIT</h1>
+        </span>
+        <hr>
+
+    <h1>CheckIT</h1>
+
+    <form id="studentForm">
+        <input type="text" id="studentName" placeholder="Enter Student Name"> <br>
+
+        <input type="number" id="studentMark" placeholder="Enter Mark (0-100)"> <br>
+
+        <button type="submit">Submit</button>
+    
+        
+     </form>
+
+    <div id="result"></div>
+
+    <h2>Graded Students</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Mark</th>
+                <th>Grade</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody id="studentList">
+        </tbody>
+    </table>    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
